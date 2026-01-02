@@ -14,11 +14,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="google-site-verification" content="H61s8koLe-MeztqWfKssizhc_3gHdSb2ftPQm0qL44M" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="preload" as="image" href="prvi-kadrovi/hero.webp">
-    <link rel="preload" as="image" href="prvi-kadrovi/kuca-popreko.webp">
-    <link rel="preload" as="image" href="prvi-kadrovi/kamenjar-mali.webp">
-    <link rel="preload" as="image" href="prvi-kadrovi/ruze.webp">
-    <link rel="preload" as="image" href="prvi-kadrovi/dvoriste-ispred.webp">
+    <link rel="preload" as="image" href="slika_kuca.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="prvi-kadrovi/hero.webp" fetchpriority="high"> 
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
@@ -110,7 +107,7 @@
                                 <!-- LEVA STRANA DESNE KOLONE: LOGO + TEKST -->
                                 <div class="hero-text">
                                     <header id="header" class="with-logo">
-                                        <img src="logo.jpg" alt="Fruska Gora Guesthouse logo" class="fg-logo">
+                                        <img src="logo.webp" alt="Fruska Gora Guesthouse logo" class="fg-logo">
                                         <div class="header-text">
                                             <h1 class="site-title">
                                                 <span>Fruška Gora</span>
@@ -159,7 +156,7 @@
   <div class="hero-video-slide">
     <video muted playsinline preload="metadata">
       <source
-        src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/dvoriste-ispred-19_fdpr1j.mp4"
+        src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005125/kamenjar_recepcija-36_kobk6v.mp4"
         type="video/mp4">
     </video>
   </div>
@@ -286,7 +283,7 @@
 
     <!-- VIDEO – Cloudinary -->
     <video muted playsinline preload="metadata">
-      <source src="https://res.cloudinary.com/dm2rhevvw/video/upload/v1767303168/rostilj-video_copy_p1vge8_wylgea.mp4" type="video/mp4">
+      <source src="https://res.cloudinary.com/dm2rhevvw/video/upload/v1767360864/rostilj-video_copy_fsf7tn.mp4" type="video/mp4">
     </video>
 
      <img src="imagesgit/rostilj7.webp" alt="Roštilj">
@@ -310,7 +307,7 @@
 
     <!-- VIDEO – Cloudinary -->
     <video muted playsinline preload="metadata">
-      <source src="https://res.cloudinary.com/dm2rhevvw/video/upload/v1767303121/hortenzije-video_uwpux2_ukkqzm.mov">
+      <source src="https://res.cloudinary.com/dm2rhevvw/video/upload/v1767360533/hortenzije-video_h69ant.mp4" type="video/mp4">
     </video>
 
     
@@ -347,168 +344,21 @@
 
     </div>
 
+    <p style="text-align:center">
+     
+    </p>
 
+    <p style="text-align:center">
+		<a href="video-galerija.html" class="button large alt back-btn">
+     
+    
+      <span class="call-text">
+        <span class="sr">Video galerija &rarr;</span>
+  
+      </span>
+    </a>
+  </p>
 
-<!-- VIDEO GALERIJA -->
-<section class="video-gallery">
-    <header>
-        <h2>Video galerija</h2>
-        
-    </header>
-
-    <div class="video-grid">
-
-        <!-- GORNJI ŠIROKI VIDEO (PREKO 3 KOLONE) -->
-        <div class="video-tile video-main video-slideshow">
-
-          
-          <video class="room-video-slide active"
-       autoplay
-       muted
-       playsinline
-       preload="metadata"
-       poster="prvi-kadrovi/kuca-popreko.webp">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005135/kuca-popreko-21_wu2dv3.mp4" 
-              type="video/mp4">
-          </video>  
-         
-          
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005103/kamenjar-popreko-11_tmuvdy.mp4" 
-              type="video/mp4">
-          </video>  
-           
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005137/dron-popreko-27_zpyes9.mp4" 
-              type="video/mp4">
-          </video>  
-           
-            <!-- dodaj još <video> po želji -->
-        </div>
-
-        <!-- DESNO VISOKI VIDEO (PREKO 2 REDA) -->
-       
-          <div class="video-tile video-tall video-slideshow">
-            <video
-              class="room-video-slide active"
-              autoplay
-              muted
-              playsinline
-              preload="metadata"
-              poster="prvi-kadrovi/kamenjar-mali.webp">
-          
-              <source
-                src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005096/kamenjar-mali-8_opc0tg.mp4" 
-                type="video/mp4">
-            </video>
-           
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005125/kamenjar_recepcija-36_kobk6v.mp4" 
-              type="video/mp4">
-          </video> 
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005127/dron-dvoriste-ap-21_hpaasq.mp4" 
-              type="video/mp4">
-          </video> 
-            
-        </div>
-
-        <!-- DONJI RED: 3 USKA VIDEA -->
-        <div class="video-tile video-narrow video-narrow-1 video-slideshow">
-          <video
-  class="room-video-slide active"
-  autoplay
-  muted
-  playsinline
-  preload="metadata"
-  poster="prvi-kadrovi/hero.webp">
-
-  <source
-    src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005127/dron-dvoriste-ap-21_hpaasq.mp4" 
-    type="video/mp4">
-</video>
-
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005096/kamenjar-mali-8_opc0tg.mp4" 
-              type="video/mp4">
-          </video>  
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005113/dvoriste-ispred-19_fdpr1j.mp4" 
-              type="video/mp4">
-          </video>  
-          
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/v1766005126/f_auto,q_auto/dron-dvoriste-17_dvwwqd.mp4" 
-              type="video/mp4">
-          </video>  
-
-        </div>
-
-        <div class="video-tile video-narrow video-narrow-2 video-slideshow">
-          <video
-  class="room-video-slide active"
-  autoplay
-  muted
-  playsinline
-  preload="metadata"
-  poster="prvi-kadrovi/ruze.webp">
-
-  <source
-    src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005093/ruze-6_vzxizz.mp4" 
-    type="video/mp4">
-</video>
-
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005094/parking-9_hnbbll.mp4" 
-              type="video/mp4">
-          </video>  
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005095/ulaz-6_sloued.mp4" 
-              type="video/mp4">
-          </video>  
-        </div>
-
-        <div class="video-tile video-narrow video-narrow-3 video-slideshow">
-          <video
-          class="room-video-slide active"
-          autoplay
-          muted
-          playsinline
-          preload="metadata"
-          poster="prvi-kadrovi/dvoriste-ispred.webp">
-        
-          <source
-            src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005113/dvoriste-ispred-19_fdpr1j.mp4" 
-            type="video/mp4">
-        </video>
-        
-          <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-            <source
-              src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005093/jelka-5_jabhap.mp4" 
-              type="video/mp4">
-          </video>  
-            <video class="room-video-slide active" autoplay muted playsinline preload="metadata">
-              <source
-                src="https://res.cloudinary.com/dm2rhevvw/video/upload/f_auto,q_auto/v1766005109/dron-dvoriste2-20_ytwpj3.mp4"
-                type="video/mp4">
-            </video>
-        </div>
-
-    </div>
-</section>
-
-
-</section>
 
 
 
